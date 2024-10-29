@@ -27,6 +27,7 @@ export default function Board() {
   }
   return (
     <>
+      <div className="Text1"><h1>Крестики нолики ♥</h1></div>
       <div className="board-row">
         <Square value={squares[0]} onSquareClick={() => handleClick(0)} />
         <Square value={squares[1]} onSquareClick={() => handleClick(1)} />
